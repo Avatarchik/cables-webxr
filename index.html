@@ -83,6 +83,7 @@
 
         document.addEventListener('CABLES.jsLoaded', function (event) {
             CABLES.patch = new CABLES.Patch({
+                "canvas":{"alpha":true,"premultipliedAlpha":true},
                 patch: CABLES.exportedPatch,
                 "prefixAssetPath": "",
                 "glCanvasId": "glcanvas",
